@@ -9,7 +9,7 @@ var tasksCompletedEl = document.querySelector("#tasks-completed");
 // function that overrided default browser behavior (no automatic refreshing)
 
 var taskFormHandler = function(event) {
-  event.preventDefault();
+  event.preventDefault(); 
   var taskNameInput = document.querySelector("input[name='task-name']").value;
   var taskTypeInput = document.querySelector("select[name='task-type']").value;
 
